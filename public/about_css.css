@@ -1,0 +1,301 @@
+.navbar
+{
+    
+    font-size: 19px;
+    border-right: 30px;
+    position: fixed;
+}
+.nav-item :hover
+{
+    color: orange !important;
+    
+}
+
+body
+{
+    background-image: linear-gradient(to bottom right,#2e2d2d,#292828,#000000,#444444,#505050,#8f8f8c,#5f5f5f );
+}
+.main-heading
+{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: orange;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+.navbar-nav > li
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+img
+{
+    transition: .5s ease;
+  backface-visibility: hidden;
+}
+.main-heading
+{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: orange;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+.container .container-new
+{
+    width: 50%;
+}
+.new-image {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 2% 2% 2%;
+    text-align: center;
+    position: relative;
+    height:400px;
+    width:580px;
+    overflow: hidden;
+    float: left;
+    
+    
+   
+}
+.new-text
+{
+    color: black;
+    font-family: 'Lora', serif;
+
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 2%;
+    margin-left:2%;
+}
+.content
+{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    left: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+.new-image:hover .content
+{
+    left: 0;
+    
+}
+.new-image :hover img
+{
+    transform: scale(1.2);
+}
+.full-form
+{
+    color: orange;
+    display: inline;
+
+}
+.new-class
+{
+    text-align: center;
+}
+.card
+{
+    background-image: linear-gradient(to bottom right,#ffe7b8,#f5e4c6 );
+    margin: 2% 2% 2% 2%;
+    color: #000000;
+}
+
+
+
+ 
+.new-image img
+ {
+    float: left;
+    margin: 0% 0.5% 0.5% 0.5%;
+    -webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+    
+    
+}
+.credits
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: rgb(165, 163, 163);
+    flex: display;
+    flex-direction: row;
+}
+.credits ul{
+    list-style: none;
+    background-color: rgb(32, 32, 32);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: auto;
+}
+.credits ul li
+{
+    float:left;
+    
+    background-color: rgb(32, 32, 32);
+}
+.new-container-1
+{
+    margin-left: 18%;
+    width: 83.33%;
+    margin-right: 98px;
+}
+.new-container-2
+{
+    width: 53.333%;
+    margin-left: 28%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+     
+}
+.new-container-3
+{
+    
+    margin-top: 7%;
+}
+.new-container-3 a
+{
+    color: rgb(165, 163, 163);
+}
+.new-container-3 a:hover
+{
+    color: rgb(165, 163, 163);
+}
+.container-fluid
+{
+    background-color: rgb(32, 32, 32); 
+    
+    color: rgb(165, 163, 163);
+}
+.container-fluid a
+{
+    color: rgb(165, 163, 163);
+}
+.container-fluid:hover a 
+{
+    color: rgb(165, 163, 163);
+}
+
+
+@media screen and (max-width:1250px)
+{
+    .new-image
+    {
+      
+       display: flex;
+       flex-direction: row;
+       
+       margin-left: 20%;
+       margin-right: 30%;
+    }
+    .content
+    {
+        left: 0;
+    }
+
+    .new-image img
+    {
+        width: 775px;
+        height: 475px;
+
+    }
+    .new-container-1
+{
+    margin-left: 18%;
+    width: 83.33%;
+    margin-right: 98px;
+}
+.new-container-2
+{
+    width: 53.333%;
+    margin-left: 28%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+     
+}
+
+.new-container-3
+{
+    
+    margin-top: 7%;
+}
+.new-container-3 a
+{
+    color: rgb(165, 163, 163);
+}
+.new-container-3 a:hover
+{
+    color: rgb(165, 163, 163);
+}
+}
+@media screen and (max-width:750px)
+{
+    .new-image
+    {
+      
+       width: 96%;
+       height: auto;
+       margin: 2% 2% 2% 2%;
+    }
+    .content
+    {
+        left: 0;
+    }
+
+    .new-image img
+    {
+        width: 100%;
+        height: auto;
+
+    }
+    .new-container-1
+{
+    margin-left: 18%;
+    width: 100%;
+    margin-right: 98px;
+}
+.new-container-2
+{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+     
+}
+.new-container-3
+{
+    
+    display: block;
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.new-container-3 a
+{
+    color: rgb(165, 163, 163);
+}
+.new-container-3 a:hover
+{
+    color: rgb(165, 163, 163);
+}
+}
+   

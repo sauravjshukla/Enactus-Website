@@ -1,0 +1,37 @@
+.stock-images
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.img:hover
+{
+    scale: none !important; 
+}
+.stock-images img
+{
+    margin: 2% 2% 2% 2%;
+}
+
+.stock-images img:hover
+{
+    border: orange;
+    border-style: solid;
+}
+.new-image :hover img
+{
+    transform: scale(1);
+}
+.card
+{
+    background-image: linear-gradient(to bottom right,#ffe7b8,#f5e4c6 );
+    margin: 2% 2% 2% 2%;
+    color: #000000;
+}
+.knowmore
+{
+    position: absolute;
+    left: 50%;
+    font-family: 'Roboto Slab', serif;
+}
